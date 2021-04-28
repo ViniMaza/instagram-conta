@@ -131,7 +131,7 @@ body {
     background-repeat: no-repeat;
     width: 140px;
     height: 190px;
-    margin-top: 8px;
+    margin-top: 9px;
     background-size: 100%;
 }
 
@@ -151,6 +151,50 @@ body {
 }
 
 @media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
+
+@media (max-width: 1024px) {
     body {
         background-color: #ffffff;
     }
